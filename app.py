@@ -4,7 +4,7 @@ from firebase_admin import credentials, firestore
 from ims_lti_py import ToolProvider
 
 # Initialize Firebase Admin SDK
-cred = credentials.Certificate('path/to/serviceAccountKey.json')
+cred = credentials.Certificate('pdocubot-2ac1d-firebase-adminsdk-9ztu6-80050a35cd.json')
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
